@@ -286,3 +286,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     vendor/qcom/shamu/proprietary/libxml.so:system/vendor/lib/libxml.so:qcom \
 
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+	TimeService \

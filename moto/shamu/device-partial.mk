@@ -50,6 +50,12 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/librecoglib.so:system/lib/librecoglib.so:moto \
     vendor/moto/shamu/proprietary/libsupermodel.so:system/lib/libsupermodel.so:moto \
     vendor/moto/shamu/proprietary/acdb.mbn:system/vendor/firmware/acdb.mbn:moto \
+    vendor/moto/shamu/proprietary/right.boost.music.config:system/vendor/firmware/right.boost.music.config:moto \
+    vendor/moto/shamu/proprietary/left.boost.music.config:system/vendor/firmware/left.boost.music.config:moto \
+    vendor/moto/shamu/proprietary/left.boost.ringtone.config:system/vendor/firmware/left.boost.ringtone.config:moto \
+    vendor/moto/shamu/proprietary/right.boost.ringtone.config:system/vendor/firmware/right.boost.ringtone.config:moto \
+    vendor/moto/shamu/proprietary/right.boost.voice.config:system/vendor/firmware/right.boost.voice.config:moto \
+    vendor/moto/shamu/proprietary/left.boost.voice.config:system/vendor/firmware/left.boost.voice.config:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14101503-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14101503-0103aa-shamu.tdat:moto \
     vendor/moto/shamu/proprietary/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq:moto \
@@ -74,6 +80,7 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/libmdmcutback.so:system/vendor/lib/libmdmcutback.so:moto \
     vendor/moto/shamu/proprietary/libmotext_inf.so:system/vendor/lib/libmotext_inf.so:moto \
     vendor/moto/shamu/proprietary/libqmimotext.so:system/vendor/lib/libqmimotext.so:moto \
+    vendor/moto/shamu/proprietary/libmemalloc.so:system/lib/libmemalloc.so:moto \
     vendor/moto/shamu/proprietary/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:moto \
     vendor/moto/shamu/proprietary/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:moto \
     vendor/moto/shamu/proprietary/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:moto \

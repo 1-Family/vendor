@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Modifications Copyright (C) 2011-2017 TheCTO Technological Entrepreneurship & Consulting LTD
+
 # Qualcomm blob(s) necessary for Shamu hardware
 PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \

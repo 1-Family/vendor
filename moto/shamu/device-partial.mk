@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Modifications Copyright (C) 2011-2017 TheCTO Technological Entrepreneurship & Consulting LTD
+
 # Motorola blob(s) necessary for Shamu hardware
 PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/adspd:system/bin/adspd:moto \
